@@ -4,7 +4,7 @@ print()
 
 total_belanja = int(input('Total Belanja: Rp.'))
 
-if (total_belanja >=100000) and (total_belanja < 500000):
+if (total_belanja >= 100000) and (total_belanja < 500000):
     harga_akhir = total_belanja - (0.1*total_belanja)
     print('Selamat, anda mendapat diskon 10%')
 elif (total_belanja >= 500000) and (total_belanja < 1000000):
